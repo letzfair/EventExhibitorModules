@@ -43,7 +43,7 @@ To enable the module, you can either:
 Place the following `<div>` element where you want the list of exhibitors to appear:
 
 ```html
-<div id="lf-exhibitors"></div>
+<div id="lf-espositori"></div>
 ```
 
 ## 🛠 Configuration Options
