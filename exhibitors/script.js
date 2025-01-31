@@ -1,5 +1,5 @@
 (() => {
-    window.lfEspositoriConfig = {
+    window.lf_espositori_config = {
         manifestazioneId: { INSTANCE MANIFESTATION ID },
         lang: "en", // Remove to use browser language
         base_url: "https://{ INSTANCE DOMAIN }",
@@ -18,7 +18,7 @@
         document.body.appendChild(script);
     });
 
-    loadScript(`${lfEspositoriConfig.base_url}/assets/js/frammento-espositori.js`)
+    loadScript(`${lf_espositori_config.base_url}/assets/js/frammento-espositori.js`)
         .then(url => console.log(`Script loaded successfully: ${url}`))
         .catch(err => console.error(err.message));
 })();
